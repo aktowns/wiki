@@ -1,0 +1,18 @@
+## Expressions
+
+\begin{array}{lrll}
+e & =     & x                                   & \textrm{variable}\\
+  & \vert & e_1\ e_2                                & \textrm{application}\\
+  & \vert & \lambda\ x\ .\ e                    & \textrm{abstraction} \\
+  & \vert & \mathtt{let}\ x = e_1\ \mathtt{in}\ e_2 \\
+\end{array}
+  
+## Types
+  
+\begin{array}{llrll}
+\textrm{mono} & \tau   &=     & \alpha                    & \ \textrm{variable} \\
+              &        &\vert &  D\ \tau\dots\tau         & \ \textrm{application} \\
+\textrm{poly} & \sigma &=    & \tau                                           \\
+              &        &\vert& \forall\ \alpha\ .\ \sigma & \ \textrm{quantifier}\\
+\\
+\end{array}
