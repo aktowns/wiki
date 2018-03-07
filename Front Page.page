@@ -2,7 +2,7 @@
 format: Markdown
 ...
 
-Wiki wiki!
+this is bad.
 
 ~~~ { .haskell }
 let a = 1:a in head a
