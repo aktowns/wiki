@@ -2,4 +2,11 @@
 format: Markdown
 ...
 
-:o
+Wiki wiki!
+
+~~~ { .haskell }
+let a = 1:a in head a
+~~~
+
+$\lambda x.x: \forall a\rightarrow a$
+
