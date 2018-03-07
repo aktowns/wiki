@@ -2,7 +2,11 @@
 format: Markdown
 ...
 
-this is bad.
+# size 1
+## size 2
+### size 3
+#### size 4
+
 
 ~~~ { .haskell }
 let a = 1:a in head a
