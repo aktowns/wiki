@@ -9,7 +9,7 @@ let a = 1:a in head a
 ~~~
 
 $\lambda x.x: \forall a\rightarrow a$
-
+![https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2kSKKhuaYVJHcN5OJAfcZjRJ2m0-aXpYCldqIY47v95kWrZlD](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2kSKKhuaYVJHcN5OJAfcZjRJ2m0-aXpYCldqIY47v95kWrZlD)
 ![https://cdn-images-1.medium.com/max/800/1*Gxyrlu41qHNbZAPdoxR7_w.jpeg](https://cdn-images-1.medium.com/max/800/1*Gxyrlu41qHNbZAPdoxR7_w.jpeg)
 
 Test autodeploy
