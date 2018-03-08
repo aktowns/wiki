@@ -1,0 +1,5 @@
+# Prelim
+## Sets, Relations, and Functions
+
+Definition
+:   We use standard notation for sets: curly braces for listing the elements of a set explicitly $(\{ \ldots \})$ or showing how to construct one set from another by "comprehension" $(\{ x \in S | \ldots \})$, $\emptyset$ for the empty set, and $S{\backslash}T$ for the set difference of $S$ and $T$ (the set of elements of $S$ that are not also elements of $T$). The size of a set $S$ is written $|S|$. The powerset of $S$, i.e., the set of all the subsets of $S$, is written $P(S)$
