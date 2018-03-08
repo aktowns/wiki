@@ -10,9 +10,22 @@ Definition
 Definition
 :   An $n$-place relation on a collection of sets $S_1$,$S_2$,$\ldots$,$S_n$ is a set $R \subseteq S_1 ×S_2 × \ldots ×S_n$ of tuples of elements from $S_1$ through $S_n$. We say that the elements $s_1{\in}S_1$ through $s_n{\in}S_n$ are related by $R$ if $(s_1,{\ldots},s_n)$ is an element of $R$.
 
+## Induction
+
 Axiom [Principle of ordinary induction on natural numbers]
 :   Suppose that $P$ is a predicate on the natural numbers. Then:
 
         If P(0) 
         and, for all i, P(i) implies P(i+1),
         then P(n) holds for all n.
+  
+<br />
+
+Axiom [Principle of complete induction on natural numbers]
+:   Suppose that $P$ is a predicate on the natural numbers. Then:
+
+        If, for each natural number n,
+            given P(i) for all i<n
+            we can show P(n),
+        then P(n) holds for all n
+        
