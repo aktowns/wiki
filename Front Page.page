@@ -2,18 +2,4 @@
 format: Markdown
 ...
 
-# size 1
-## size 2
-### size 3
-#### size 4
-
-
-~~~ { .haskell }
-let a = 1:a in head a
-~~~
-
-$\lambda x.x: \forall a\rightarrow a$
-
-![https://cdn-images-1.medium.com/max/800/1*Gxyrlu41qHNbZAPdoxR7_w.jpeg](https://cdn-images-1.medium.com/max/800/1*Gxyrlu41qHNbZAPdoxR7_w.jpeg)
-
-Test autodeploy
+Welcome to my wiki! Mostly just random notes and stuff.
