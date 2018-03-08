@@ -2,4 +2,17 @@
 ## Sets, Relations, and Functions
 
 Definition
-:   We use standard notation for sets: curly braces for listing the elements of a set explicitly $(\{ \ldots \})$ or showing how to construct one set from another by "comprehension" $(\{ x \in S | \ldots \})$, $\emptyset$ for the empty set, and $S{\backslash}T$ for the set difference of $S$ and $T$ (the set of elements of $S$ that are not also elements of $T$). The size of a set $S$ is written $|S|$. The powerset of $S$, i.e., the set of all the subsets of $S$, is written $P(S)$
+:   We use standard notation for sets: curly braces for listing the elements of a set explicitly $(\{ \ldots \})$ or showing how to construct one set from another by "comprehension" $(\{ x \in S | \ldots \})$, $\emptyset$ for the empty set, and $S{\backslash}\mathcal{T}$ for the set difference of $S$ and $\mathcal{T}$ (the set of elements of $S$ that are not also elements of $\mathcal{T}$). The size of a set $S$ is written $|S|$. The powerset of $S$, i.e., the set of all the subsets of $S$, is written $P(S)$
+
+Definition
+:   The set $\{0,1,2,3,4,5,{\ldots}\}$ of natural numbers is denoted by the symbol $\mathbb{N}$. A set is said to be countable if its elements can be placed in one-to-one correspondence with the natural numbers.
+
+Definition
+:   An $n$-place relation on a collection of sets $S_1$,$S_2$,$\ldots$,$S_n$ is a set $R \subseteq S_1 ×S_2 × \ldots ×S_n$ of tuples of elements from $S_1$ through $S_n$. We say that the elements $s_1{\in}S_1$ through $s_n{\in}S_n$ are related by $R$ if $(s_1,{\ldots},s_n)$ is an element of $R$.
+
+Axiom [Principle of ordinary induction on natural numbers]
+:   Suppose that $P$ is a predicate on the natural numbers. Then:
+
+        If P(0) 
+        and, for all i, P(i) implies P(i+1),
+        then P(n) holds for all n.
